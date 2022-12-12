@@ -81,7 +81,7 @@
 .welcome__inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    
+
 }
 
 .welcome__img-wrapper {
@@ -131,6 +131,12 @@
     border-radius: 0.625rem;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0);
+    color: #000000;
     cursor: pointer;
 }
 
+.btn-more:hover {
+    color: #FFFFFF;;
+    background: #E06733;
+    transition: all 0.2s ease-in-out;
+}
